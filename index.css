@@ -1,0 +1,21 @@
+* {
+    margin: 0; /*remove default margin*/
+}
+
+h1 {
+    font-family: "Dancing Script";
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 5px;
+}
